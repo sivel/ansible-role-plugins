@@ -1,0 +1,5 @@
+- name: bar
+  action: bar
+
+- name: turn to FOO
+  debug: msg="{{'test'|foo}}"
